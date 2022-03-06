@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    position: fixed; 
+}
+.header{
+    background-color: black;
+    color: white;
+    width: 130%;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.header img{
+    padding-bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.header h2
+{
+    position: relative;
+    bottom: 70px;
+    left: 90px;
+}
+ .menu{
+    
+    float: right;
+    
+}
+ .menu ul li{
+    display:inline-block;
+    margin: 0px;
+    padding-right: 40px;
+    position: fixed;
+    left: 80%;
+    top: 30px;
+    text-decoration: none;
+    font-size: larger;
+ 
+    
+}
+.menu ul li a{
+    display: inline-block;
+    color: black;
+    margin: 0px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    clear: both;
+}
+.menu ul li a:hover{
+    display: inline-block;
+    border-radius: 10px;
+    color: rgb(124, 124, 223);
+    clear: both;
+} 
+.image{
+    position: static;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.text{
+    font-size: 50px;
+    position: relative;
+    bottom: 800px;
+    left: 350px;
+    color: wheat;
+    
+}
+.text input{
+    width: 400px;
+    height: 20px;
+    color: black;
+    margin-left: 170px;
+    border: 1px black solid;
+}
+.text button{
+    width: 400px;
+    height: 30px;
+    cursor: pointer;
+    background-color: black;
+    margin-left: 170px;
+    color: white;
+}
+.text button:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}

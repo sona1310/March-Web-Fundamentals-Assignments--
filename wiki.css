@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #3d67a6;
+}
+#container > .item {
+  background-color: #fff;
+  margin: 10px;
+  padding: 7px;
+  font-size: 10px;
+  font-family: arial;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#secondcontainer {
+  display: flex;
+  position: fixed;
+  top: 49.4px;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #b8c9e6;
+}
